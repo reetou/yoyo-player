@@ -392,7 +392,7 @@ class _YoYoPlayerState extends State<YoYoPlayer>
       multiLine: true,
     );
     RegExp regExp = new RegExp(
-      r"#EXT-X-STREAM-INF:(?:.*,RESOLUTION=(\d+x\d+))?,?(.*)\r?\n(.*)",
+      r"#EXT-X-STREAM-INF:(?:.*RESOLUTION=\d+x(\d+))?,?(.*)\r?\n(.*)",
       caseSensitive: false,
       multiLine: true,
     );
