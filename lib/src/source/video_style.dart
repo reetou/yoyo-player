@@ -11,6 +11,7 @@ class VideoStyle {
     this.playedColor = Colors.green,
     this.qualitystyle = const TextStyle(
       color: Colors.white,
+      fontSize: 12,
     ),
     this.qashowstyle = const TextStyle(
       color: Colors.white,

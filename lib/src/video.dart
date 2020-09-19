@@ -240,7 +240,10 @@ class _YoYoPlayerState extends State<YoYoPlayer>
                     width: 5,
                   ),
                   topchip(
-                    Text(m3u8quality, style: widget.videoStyle.qualitystyle),
+                    Padding(
+                      padding: EdgeInsets.only(left: 8, right: 8),
+                      child: Text(m3u8quality, style: widget.videoStyle.qualitystyle),
+                    ),
                     () {
                       // quality function
                       m3u8show = true;
